@@ -1,0 +1,104 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header {
+    background-color: #4b4b4b; /* Colore di sfondo dell'header */
+    color: #fff; /* Colore del testo nell'header */
+    padding: 20px 0; /* Spaziatura interna sopra e sotto */
+}
+
+.upper {
+    display: flex; 
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.upper a {
+    color: #fff; /* Colore del testo dei link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    font-size: 18px; /* Dimensione del testo */
+    padding: 10px 20px; /* Spaziatura interna dei link */
+}
+
+.upper a:hover {
+    background-color: #9c9c9c; /* Cambia il colore di sfondo al passaggio del mouse */
+    border-radius: 5px; /* Bordi arrotondati al passaggio del mouse */
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    padding: 220px;
+    margin-top: 0px;
+    font-family: Italic;
+
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px;  
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.column {
+    width: 45%;
+}
+
+.column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+footer {
+    background-color: #333; /* Colore di sfondo del footer */
+    color: #fff; /* Colore del testo nel footer */
+    padding: 20px; /* Spaziatura interna */
+    text-align: center; /* Allineamento del testo al centro */
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 600px; /* Larghezza massima del contenuto del footer */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+}
+
+.footer-content p {
+    margin: 10px 0; /* Spaziatura tra i paragrafi */
+}
+
